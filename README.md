@@ -13,4 +13,4 @@ Example:["10", "00001.jpg", "T", "1", "2351"]\
 "1" - Name of the first-person camera\
 "2351" - IDs of all people in this frame\
 
-TODO: Link to TF2023
+TODO: Add download link for TF2023
