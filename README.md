@@ -14,3 +14,4 @@ Example:["10", "00001.jpg", "T", "1", "2351"]\
 "2351" - IDs of all people in this frame
 
 TODO: Add download link for TF2023
+Temporary download [link] (https://indiana-my.sharepoint.com/:f:/g/personal/zz47_iu_edu/EgZk_ElqmLBIuMsCTUv4EVQBtJIPY6afFftHHnQBv2edZg?e=oYhCnr)
