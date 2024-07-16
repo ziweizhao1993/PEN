@@ -10,7 +10,7 @@ class PEN(nn.Module):
         self.phase = phase
         self.fusetype = fusetype
         
-        if self.phase == 1: #Personal branch
+        if self.phase == 1: #Environmental branch
             self.lines_backbone = torchvision.models.vit_b_16(weights="DEFAULT")
             self.lines_backbone.conv_proj = torch.nn.Conv2d(5, 768, kernel_size=(16, 16), stride=(16, 16))
             self.lines_backbone.heads = nn.Sequential(
@@ -23,7 +23,7 @@ class PEN(nn.Module):
                 nn.Sigmoid()
             )
         
-        elif self.phase == 2: #Environmental branch
+        elif self.phase == 2: #Personal branch
             self.crops_backbone = torchvision.models.vit_b_16(weights="DEFAULT")
             self.crops_backbone.heads = nn.Identity()
             self.crops_mha = nn.MultiheadAttention(768,8,batch_first=True)
