@@ -1,5 +1,5 @@
 # PEN
-Pytorch implementation of PersonEnvironmentNet (PEN), CVPR 2024
+Pytorch implementation of PersonEnvironmentNet (PEN), CVPR 2024 \
 PEN.py: Official implementation of PersonEnvironmentNet\
 TF2023train.py: Official training split\
 TF2023eval.py: Official testing split
